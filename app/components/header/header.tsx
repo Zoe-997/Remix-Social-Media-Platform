@@ -37,7 +37,7 @@ const Header = () => {
                     <Button variant="ghost" onClick={() => setNavOpen(!navOpen)} className="md:hidden">
                         {navOpen ? <Cross2Icon /> : <HamburgerMenuIcon />}
                     </Button>
-                    <div className={`flex md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 ${navOpen ? 'flex-col order-last w-full md:w-auto' : 'hidden md:flex gap-3'}`}>
+                    <div className={`flex md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 ${navOpen ? 'absolute top-[100%] right-0 flex-col order-last max-w-[300px] w-full md:w-auto' : 'hidden md:flex gap-3'}`}>
                         <Link prefetch="intent" to={`/profile/zoetrinh`}>
                             @zoetrinh
                         </Link>
