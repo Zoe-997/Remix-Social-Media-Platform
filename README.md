@@ -43,3 +43,5 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ## Supabase
 [supabase cli](https://supabase.com/docs/reference/cli/supabase-gen-types-typescript)
 npx supabase gen types typescript --project-id [projectID] > database.types.ts
+
+https://supabase.com/docs/guides/auth/server-side/creating-a-client
